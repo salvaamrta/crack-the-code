@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Code Cracker 🔐</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Home Screen -->
+<div id="home-screen" class="container screen active" aria-label="Select difficulty level">
+  <h1>🔐 Crack the Code!</h1>
+  <div id="difficulty-selection">
+    <p class="center-text">Choose your difficulty:</p>
+    <div class="difficulty-buttons">
+      <button class="difficulty-btn" data-digits="2">Easy 🐣</button>
+      <button class="difficulty-btn" data-digits="3">Medium 🤔</button>
+      <button class="difficulty-btn" data-digits="4">Hard 😤</button>
+    </div>
+  </div>
+</div>
+
+<!-- Game Screen -->
+<div id="game-screen" class="container screen" aria-live="polite">
+  <h1>🔐 Crack the Code!</h1>
+  <p id="instruction-text">Guess the secret code 🧐</p>
+
+  <div id="code-inputs" aria-label="Code input"></div>
+  <button id="guess-btn">🔑</button>
+
+  <div id="message" role="alert" aria-live="assertive"></div>
+  <div id="tries-left" aria-live="polite"></div>
+
+  <button id="restart-btn">🔄 Restart</button>
+  <button id="back-btn">🔙 Back</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
