@@ -26,3 +26,4 @@ To explore JavaScript logic building through a fun, interactive game. It was a g
 ---
 
 Feel free to play and fork this project! 😊
+I recently discovered (thanks to a sassy friend of mine — or not 😏) that the guest number on this site isn't actually hidden and can still be checked through browser tools or inspecting the code.. might learn to solve this issue soon, who knows? 😅
